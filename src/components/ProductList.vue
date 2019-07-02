@@ -4,7 +4,7 @@
         <template v-for="(product, index ) of products">
             <div v-bind:key={index}> 
                 <h3>
-                    <a title="product.name + ' details'">
+                    <a>
                         {{ product.name }}
                     </a>
                 </h3>
