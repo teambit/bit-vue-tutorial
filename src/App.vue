@@ -36,10 +36,6 @@ body {
   flex-direction: row;
 }
 
-#product-list {
-  padding: 0 16px;
-}
-
 /* Text */
 
 h1 {
@@ -89,27 +85,7 @@ label {
 }
 
 /* Button */
-.button, button {
-  display: inline-flex;
-  align-items: center;
-  padding: 8px 16px;
-  border-radius: 2px;
-  font-size: 14px;
-  cursor: pointer;
-  background-color: #1976d2;
-  color: white;
-  border: none;
-}
 
-.button:hover, button:hover {
-  opacity: 0.8;
-  font-weight: normal;
-}
-
-.button:disabled, button:disabled {
-  opacity: 0.5;
-  cursor: auto;
-}
 
 /* Fancy Button */
 
@@ -125,20 +101,5 @@ label {
 
 /* Top Bar */
 
-#top-bar {
-  width: 100%;
-  height: 68px;
-  background-color: #1976d2;
-  padding: 16px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#top-bar h1 {
-  color: white;
-  margin: 0;
-}
 
 </style>
