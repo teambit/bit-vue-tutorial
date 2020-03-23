@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import TopBar from './components/TopBar.vue'
-import ProductList from './components/ProductList.vue'
+import TopBar from './components/TopBar/TopBar.vue'
+import ProductList from './components/ProductList/ProductList.vue'
 
 export default {
   name: 'app',

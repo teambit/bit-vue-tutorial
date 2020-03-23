@@ -22,7 +22,7 @@
 
 <script>
 
-import products from '../assets/products';
+import products from './products';
 
 export default {
   name: 'ProductList',
